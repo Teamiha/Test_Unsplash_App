@@ -20,17 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.overrideUserInterfaceStyle = .light
         runLaunchScreen()
-//        runMainFlow()
+        runMainFlow()
         
         return true
     }
     
     
-//    func runMainFlow() {
-//        DispatchQueue.main.async {
-//            self.window?.rootViewController = TabBarConfigurator().configure()
-//        }
-//    }
+    func runMainFlow() {
+        DispatchQueue.main.async {
+            self.window?.rootViewController = TabBarConfigurator().configure()
+        }
+    }
 
     func runLaunchScreen() {
         let launchScreenViewController = UIStoryboard(name: "LaunchScreen", bundle: .main)
