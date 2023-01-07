@@ -15,6 +15,7 @@
 		4EB8B74D2966215D0075CF15 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8B74C2966215D0075CF15 /* TabBarModel.swift */; };
 		4EB8B74F296622BD0075CF15 /* TabBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8B74E296622BD0075CF15 /* TabBarConfiguration.swift */; };
 		4EB8B751296636100075CF15 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8B750296636100075CF15 /* MainViewController.swift */; };
+		4EB8B75429691AF30075CF15 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8B75329691AF30075CF15 /* MainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4EB8B74C2966215D0075CF15 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
 		4EB8B74E296622BD0075CF15 /* TabBarConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfiguration.swift; sourceTree = "<group>"; };
 		4EB8B750296636100075CF15 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4EB8B75329691AF30075CF15 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		5D4FE615D563A61EC3D91FBE /* Pods-Test_Unsplash_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_Unsplash_App.release.xcconfig"; path = "Target Support Files/Pods-Test_Unsplash_App/Pods-Test_Unsplash_App.release.xcconfig"; sourceTree = "<group>"; };
 		D089E61B17F77F09E8A0373B /* Pods-Test_Unsplash_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_Unsplash_App.debug.xcconfig"; path = "Target Support Files/Pods-Test_Unsplash_App/Pods-Test_Unsplash_App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 		4EB8B74629661D410075CF15 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				4EB8B75229691ABE0075CF15 /* Cells */,
 				4EB8B750296636100075CF15 /* MainViewController.swift */,
 			);
 			path = MainView;
@@ -164,6 +167,14 @@
 				4EB8B74E296622BD0075CF15 /* TabBarConfiguration.swift */,
 			);
 			path = TapBar;
+			sourceTree = "<group>";
+		};
+		4EB8B75229691ABE0075CF15 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8B75329691AF30075CF15 /* MainCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EB8B74F296622BD0075CF15 /* TabBarConfiguration.swift in Sources */,
+				4EB8B75429691AF30075CF15 /* MainCollectionViewCell.swift in Sources */,
 				4EB8B74D2966215D0075CF15 /* TabBarModel.swift in Sources */,
 				4E0AE01C29661551002FD4B7 /* AppDelegate.swift in Sources */,
 				4E0AE02629661551002FD4B7 /* Test_Unsplash_App.xcdatamodeld in Sources */,
